@@ -10,6 +10,7 @@ import {
   getKeyValue,
 } from "@nextui-org/react";
 import { Avatar } from "@nextui-org/react";
+import { Button } from "@nextui-org/react";
 
 // React.Memo: Useful when props in components are always the same
 
@@ -106,7 +107,7 @@ const Guitars = function () {
               <TableCell>{guitar.color}</TableCell>
               <TableCell>{guitar.country}</TableCell>
               <TableCell>
-                <Avatar src={guitar.imgUrl} className="w-40 h-40 text-large" />
+                <Avatar src={guitar.imgUrl} className="w-20 h-20 text-large" />
               </TableCell>
             </TableRow>
           );
